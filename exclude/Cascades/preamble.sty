@@ -1,0 +1,54 @@
+%--------------------- CAT Lab BEC Notes I guess---------------------
+%Import Line
+\ProvidesPackage{preamble}
+
+%Math packages
+\usepackage{amsmath, amsfonts, amssymb, mathtools, amsthm}
+\usepackage{graphicx, xcolor}
+\usepackage{enumitem}
+\usepackage{pgfplots}
+\usepackage{physics}
+\usepackage{algorithm}
+
+\usepackage{algpseudocode}
+\pgfplotsset{width=10cm,compat=1.9} %tikz plots stuff
+
+%Headers and formatting styles
+\usepackage[margin = 2cm]{geometry} 
+\usepackage{fancyhdr,float}
+
+%Language and font encodings
+\usepackage[english]{babel}
+\usepackage[hungarian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%Referencing and Bibliographies
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+%Commands
+\newcommand{\note}[1]{\textcolor{red}{Note: #1}}
+    %Symbols 
+    \newcommand{\R}{\ensuremath{\mathbb{R}}} %Reals
+    \newcommand{\C}{\ensuremath{\mathbb{C}}} %Complex
+    \newcommand{\N}{\ensuremath{\mathbb{N}}} %Naturals
+    \newcommand{\Z}{\ensuremath{\mathbb{Z}}} %Integers
+    \newcommand{\Q}{\ensuremath{\mathbb{Q}}} %Rationals
+    \newcommand{\e}{\ensuremath{\epsilon}} %epsilon
+    \renewcommand{\d}{\ensuremath{\delta}} %delta
+    \newcommand{\Ci}{\mathcal{C}^{\infty}} %Infinitely Differentiable & Continuous functions
+    
+    %Shortcuts
+    \newcommand{\ra}{\rightarrow}
+    \newcommand{\proofeq}{\overset{?}{=}} %Proof Equals
+    
+    %Input Shortcuts
+    \newcommand{\limvar}[2]{\ensuremath{\lim_{{#1}\to{#2}}}} %Limit 
+    \newcommand{\sumvar}[2]{\ensuremath{\sum_{{#1}}^{{#2}}}} %Sum
+    \newcommand{\product}[2]{\ensuremath{\prod_{{#1}}^{{#2}}}} %Product
+    \newcommand{\union}[2]{\ensuremath{\bigcup_{{#1}}^{{#2}}}} %Union (sets)
+    \newcommand{\intersect}[2]{\ensuremath{\bigcap_{{#1}}^{{#2}}}} %Intersection (sets)
+
+    %Environments
+    \newtheorem*{counterexample}{Counterexample}
