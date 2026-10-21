@@ -1,6 +1,6 @@
 # Beta-Binomial Cascades Figures
 
-Code for the figures in *Interplay Between Network Heterogeneity and Activation
+Code for the figures in our paper *Interplay Between Network Heterogeneity and Activation
 Thresholds in Global Cascades*.
 
 Each notebook reproduces one figure and ends with assertions that check its
