@@ -3,8 +3,10 @@
 Code for the figures in our paper *Interplay Between Network Heterogeneity and Activation
 Thresholds in Global Cascades*.
 
-Each notebook reproduces one figure and ends with assertions that check its
-numerical claims. Figure output is written to `Paper Figures/`.
+Each notebook reproduces one figure and ends with a hand full of sanity checks. We also 
+use `sympy` to symbolically and numerically check a number of appendix equations.
+
+Figure output is written to `Paper Figures/`.
 
 | File | Figure |
 |---|---|
