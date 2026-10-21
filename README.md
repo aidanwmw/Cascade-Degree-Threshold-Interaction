@@ -4,10 +4,9 @@ Reproducible code for the figures and asymptotic derivations in
 *Interplay Between Network Heterogeneity and Activation Thresholds in Global
 Cascades*.
 
-The cascade condition studied throughout is the usual branching criterion
-`κ > 1`, where the cascade parameter is
+The cascade condition studied throughout is the usual branching criterion $\kappa > 1$, where the cascade parameter is
 
-κ = (1/z) * Σ_{k≥2} k(k−1) p_k F(1/k),
+$$\kappa(z) = (1/z) * \sum_{k\geq2} k(k−1) p_k F(1/k),$$
 
 with `z = <k>` the mean degree, `p_k` the degree distribution, and `F` the CDF of
 the node activation threshold. The figures vary the threshold distribution
