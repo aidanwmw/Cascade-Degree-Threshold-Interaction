@@ -6,7 +6,7 @@ Cascades*.
 
 The cascade condition studied throughout is the usual branching criterion $\kappa > 1$, where the cascade parameter is
 
-$$\kappa(z) = (1/z) * \sum_{k\geq2} k(k−1) p_k F(1/k),$$
+$$\kappa(z) = \frac{1}{z}\sum_{k\geq2} k(k−1) p_k F(1/k),$$
 
 with `z = <k>` the mean degree, `p_k` the degree distribution, and `F` the CDF of
 the node activation threshold. The figures vary the threshold distribution
